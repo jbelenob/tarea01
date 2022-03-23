@@ -7,9 +7,9 @@ int main(void)
   
   const double A = 1.0;
   const double B = 1.0;
-  double c = 1.0;
+  double c = 0.1;
 
-  for(int ii = 0; ii <= 10; ii++)
+  for(int ii = 0; ii < 10; ii++)
     {
       //Raices calculadas de la primera forma
       double root1 = (-B + std::sqrt(B*B-4*A*c))/(2*A);
